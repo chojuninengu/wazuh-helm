@@ -74,10 +74,10 @@ apiCred:
   auth:
     ##
     ##
-    username: wazuh-wui
+    username: starlabs
     ##
     ##
-    password: "9Y0m^%^Cx4zx@6=X"
+    password: "barryallen"
 
 secretjob:
   enabled: true
@@ -190,10 +190,10 @@ indexer:
   auth:
     ##
     ##
-    username: admin
+    username: wazuh
     ##
     ##
-    password: "rU40Fm%0GnK£iqQN"
+    password: "skyoffice"
   
   ##
   ##
