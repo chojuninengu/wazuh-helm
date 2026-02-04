@@ -18,9 +18,6 @@ opensearch_security.auth.unauthenticated_routes: ['/api/status']
 opensearch_security.cookie.ttl: 900000
 opensearch_security.session.ttl: 900000
 opensearch_security.session.keepalive: true
-
-# Wazuh plugin settings
-wazuh.request_timeout: 60000
   
 {{ with $.Values.oidc -}}
 opensearch_security.auth.type: "openid"
